@@ -1,0 +1,46 @@
+body {
+    padding: 3%;
+}
+
+h1, p {
+    font-family:monospace;        
+}
+body {
+    background-color: skyblue;
+}
+
+.habilidades-importantes {
+    font-size: 20px;
+}
+
+#estilo-destacados {
+    text-decoration: underline;
+}
+
+#minha-foto {
+    float: left;
+    height: 280px;
+    width: 200px;
+    padding: 10px;
+    background-color: brown;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    position: absolute;
+    left: 250px;
+    top: 40%
+}
+
+ul li:nth-child(odd) {
+    background-color: gray;
+
+}
